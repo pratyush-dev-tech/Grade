@@ -31,7 +31,7 @@ int main() {
         printf("\nStudent: %s\n", name);
         printf("Total Marks = %d\n", total);
 
-        // Grade system
+        
         if (total >= 40)
             printf("Grade: A\n");
         else if (total >= 25)

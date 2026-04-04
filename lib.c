@@ -11,7 +11,7 @@ struct book {
 struct book b[100];
 int count = 0;
 
-// Add Book
+
 void addBook() {
     printf("\nEnter Book ID: ");
     scanf("%d", &b[count].id);
@@ -28,7 +28,7 @@ void addBook() {
     printf("✅ Book Added Successfully!\n");
 }
 
-// Show Books
+
 void showBooks() {
     if (count == 0) {
         printf("\nNo books available.\n");
@@ -50,7 +50,8 @@ void showBooks() {
     }
 }
 
-// Issue Book
+
+
 void issueBook() {
     int id, found = 0;
 
